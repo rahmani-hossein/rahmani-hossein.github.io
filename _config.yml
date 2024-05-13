@@ -8,42 +8,42 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Hossein Rahmani"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Hossein Rahmani"
 description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://rahmani-hossein.github.io # the base hostname & protocol for your site e.g. "https://rahmani-hossein.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "rahmani-hossein/rahmani-hossein.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  avatar           : "hossein-profile.jpg"
+  name             : "Hossein Rahmani"
+  pronouns         : # example: "he/him"  
+  bio              : "Causality & Machine Learning Enthusiast / MSc of Applied Mathematics at UBC (Causality Sep 2023- present) Ex Cs bachelor at Sharif Univesity of Techenology"
+  location         : "Vancouver"
+  employer         : "University of British Columbia"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "hrahmani@math.ubc.ca" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  googlescholar    : ""
+  impactstory      : ""
+  orcid            : ""
+  pubmed           : ""
+  researchgate     : ""
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
-  kaggle           : # Username  
+  github           : "rahmani-hossein"
+  kaggle           : "hosseinrahmani2001"
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
@@ -56,7 +56,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : # "https://www.linkedin.com/in/hossein-rahmani-7a5373197/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -64,7 +64,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : # Username for X / Twitter "dodobda"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
