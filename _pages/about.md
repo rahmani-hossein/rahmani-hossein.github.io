@@ -1,49 +1,74 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome to Hossein Rahmani's Portfolio"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+## About Me
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+Hello! I'm Hossein Rahmani, a passionate and driven Master's student in Mathematics at the University of British Columbia. With a strong background in Computer Science, Statistics, and Optimization, I'm excited to leverage my skills in causal inference, machine learning, and data science to tackle complex problems and drive meaningful impact.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## Education
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+- **Master's in Applied Mathematics**, University of British Columbia, Vancouver, Canada (2023 - 2025 Expected)
+  - GPA: 4.0/4.0 (12 credits)
+  - Member of the Institute of Applied Mathematics (IAM)
+  - Main Courses: Probability 1 & Measure Theory, Advanced Machine Learning, Computational Optimization
 
-**Markdown generator**
+- **Bachelor's in Computer Science**, Sharif University of Technology, Tehran, Iran (2019 - 2023)
+  - GPA: 4.0/4.0 (141 credits)
+  - Main Courses: Advanced Programming in Java (OOP), Probability & Applications, Statistics & Applications, Numerical Analysis, Regression Analysis, Information Theory, Algorithms Analysis, Stochastic Processes, Financial Mathematics
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+## Research Experience
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+- **Research Assistant**, University of British Columbia, Vancouver, Canada (Sep 2023 - Present)
+  - Working on master's research focused on discovering Gene Regulatory Networks using Causal Discovery and Optimal Transport under the supervision of [Prof. Elina Robeva](https://personal.math.ubc.ca/~erobeva/index.html).
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+- **Research Assistant**, Data Science & Machine Learning Lab ([DML](https://dml.ir/)), Sharif University of Technology, Tehran, Iran (Jul 2022 - Jan 2023)
+  - Worked on Target Domain Augmentation in a human video project, using Normalization Flow techniques like MoGlow for human motion synthesis under the supervision of [Prof. Hamid R. Rabiee](https://www.linkedin.com/in/hrabiee/).
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+- **Research Assistant**, Sharif University of Technology, Tehran, Iran (Jun 2022 - Oct 2022)
+  - Explored the intersection of Deep Learning and Optimization, studying the Implicit Bias of optimization algorithms and their generalization under the supervision of [Prof. Mojtaba Tefagh](https://www.linkedin.com/in/mtefagh/).
+
+## Work Experience
+
+- **Data Scientist & Intern**, [Shomara](https://www.linkedin.com/company/shomara/about/), Tehran, Iran (Dec 2021 - Oct 2022)
+  - Worked under the supervision of [Prof. Mir-Omid Haji-Mirsadeghi](https://www.linkedin.com/in/mir-omid-haji-mirsadeghi-563053161/)
+  - Worked on prediction of purchase surplus and Heterogeneous Treatment Effects when people got credit using Causality methods like GRF with a novel type of experiment.
+  - Developed a way to estimate the probability of defaulting (in case people won't pay off money) in high variance setting using XGBoost and reduced the variance by CUPED method.
+
+- **Junior Data Scientist**, [Snapp Market](https://www.linkedin.com/company/snappmarket/), Tehran, Iran (Sep 2021 - Dec 2021)
+  - Implemented tracking and feature extraction of Computer Vision project about tracking staff and finding a map of the market using YOLO Algorithm, OpenCV, and Scikit-learn.
+  - Built a weekly dashboard for showing marketing statistics from Snapp's database using SQL.
+
+- **Data Science Internship**, [Zarrin Roya](https://www.linkedin.com/company/zarrin-group/), Tehran, Iran (Aug 2021 - Nov 2021)
+  - Used Regression Algorithms for analyzing trends in business and did statistical tests for Trend detection based on the Mann-Kendall score.
+  - Implemented customer segmentation with GMM and spectral Clustering in Python with acceptable high accuracy.
+
+- **Research Assistant**, Sharif Optimization and Applications Laboratory ([SOAL](http://soal.math.sharif.edu/)), Tehran, Iran (Jan 2022 - Jun 2022)
+  - Implemented the **[Manifold Sampling](https://github.com/rahmani-hossein/Data-Synthesis)** Algorithm SUGAR for data generation for the OPTIMIZER competition held by SOAL laboratory in Multi-Manifold Clustering.
+  - Developed a benchmark for multi-manifold clustering consisting of different algorithms like Hierarchical-Clustering, Spectral-Clustering, K-means, GMM, and density-based algorithms.
+  - Implemented PCA and t-SNE for dimension reduction and visualization techniques for comparing clustering solutions on the data.
+
+## Projects
+
+- **[Bitcoin Question-Answering RAG](https://github.com/rahmani-hossein/RAG-System)**: A Retrieval Augmented Generation (RAG) system for answering questions from Bitcoin articles using Chroma Vector Database, Sentence Transformer, Langchain, OpenAI GPT-4, and Tavily LLM Search agent.
+
+- **[Spam Detection](https://github.com/rahmani-hossein/Spam-Detection)**: Implemented spam detection using Tree-based Methods (Decision Tree, Bagging, Random Forest, AdaBoost, XGBoost) and compared their solutions on a [spam dataset](https://archive.ics.uci.edu/dataset/94/spambase).
+
+- **[Recommendation System](https://github.com/rahmani-hossein/VMLS-Companions)**: Developed a Recommendation System for foods using the ALS (Alternating Least Squares) method for matrix factorization implemented in Julia.
+
+- **[HearthStone](https://github.com/rahmani-hossein/HearthStone)**: Implemented a Graphical Client-Server HearthStone game as a final project for the Advanced Programming course, utilizing multiple design patterns (SOLID principles, Factory, and Visitor).
+
+You can find more details about my skills, work experience, honors, and awards on the [Resume](resume.md) page.
+
+Feel free to explore my GitHub repositories to see more of my projects and contributions. If you have any questions or would like to discuss potential collaborations, please don't hesitate to reach out!
+
+
+
+
