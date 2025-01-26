@@ -24,9 +24,9 @@ The AME is a scalable and principled measure of how individual elements, such as
 
 For a given element $n$, the AME is defined as:
 
-$$\text{AME}_{n} = E_{S^{n}\sim L^{n}}[U(S^{n}+\{n\})-U(S^{n})] $$
+$\text{AME}_{n} = E_{S^{n}\sim L^{n}}[U(S^{n}+\{n\})-U(S^{n})] $
 
-Here, $L^{n}$ is a distribution over subsets \(S^{n}\) that exclude $n$, and $U(S)$ is a utility function that evaluates an outcome of interest (e.g., token-level probabilities) for a subset $S$ of the original set.
+Here, $L^{n}$ is a distribution over subsets $S^{n}$ that exclude $n$, and $U(S)$ is a utility function that evaluates an outcome of interest (e.g., token-level probabilities) for a subset $S$ of the original set.
 
 ## Algorithms for Sparse AME Estimation
 
