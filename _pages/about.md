@@ -64,7 +64,7 @@ Hi! I am a Master's student in Applied Mathematics at the University of British 
 
 - **[HearthStone](https://github.com/rahmani-hossein/HearthStone)**: Implemented a Graphical Client-Server HearthStone game as a final project for the Advanced Programming course, utilizing multiple design patterns (SOLID principles, Factory, and Visitor).
 
-You can find more details about my skills, work experience, honors, and awards on the [Resume](/files/[HosseinRahmani__CV].pdf) page.
+You can find more details about my skills, work experience, honors, and awards on the [Resume](/files/HosseinRahmani__CV.pdf) page.
 
 Feel free to explore my GitHub repositories to see more of my projects and contributions. If you have any questions or would like to discuss potential collaborations, please don't hesitate to reach out!
 
