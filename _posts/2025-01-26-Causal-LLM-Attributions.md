@@ -24,9 +24,7 @@ The AME is a scalable and principled measure of how individual elements, such as
 
 For a given element $n$, the AME is defined as:
 
-$$
-\text{AME}_{n} = E_{S^{n}\sim L^{n}}[U(S^{n}+\{n\})-U(S^{n})]
-$$
+\\[\text{AME}_{n} = E_{S^{n}\sim L^{n}}[U(S^{n}+\{n\})-U(S^{n})\\]
 
 $\text{AME}_{n} = E_{S^{n}\sim L^{n}}[U(S^{n}+\{n\})-U(S^{n})] $
 
