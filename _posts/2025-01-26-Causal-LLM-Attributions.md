@@ -24,9 +24,9 @@ The AME is a scalable and principled measure of how individual elements, such as
 
 For a given element \(n\), the AME is defined as:
 
-\[
+$$
 \text{AME}_{n} = E_{S^{n}\sim L^{n}}[U(S^{n}+\{n\})-U(S^{n})]
-\]
+$$
 
 Here, \(L^{n}\) is a distribution over subsets \(S^{n}\) that exclude \(n\), and \(U(S)\) is a utility function that evaluates an outcome of interest (e.g., token-level probabilities) for a subset \(S\) of the original set.
 
@@ -48,7 +48,7 @@ To build the baseline distribution, we generate multiple incomplete prompts by s
 
 ### Computing AMEs via Regression
 
-After collecting \(M\) sampled prompts and their corresponding utility values, we construct data matrices for AME estimation. Let \(\mathbf{X}\) be an \(M\times N\) matrix, where \(N\) is the number of words in \(D_{\text{org}}\), and \(\mathbf{Y}\) be an \(M\)-dimensional vector of utility values. AME estimation proceeds through sparse linear regression, as described by Lin et al. (2022), achieving query complexity on the order of \(O(k\log N)\).
+After collecting \(M\) sampled prompts and their corresponding utility values, we construct data matrices for AME estimation. Let $\mathbf{X}$ be an \(M\times N\) matrix, where \(N\) is the number of words in \(D_{\text{org}}\), and \(\mathbf{Y}\) be an \(M\)-dimensional vector of utility values. AME estimation proceeds through sparse linear regression, as described by Lin et al. (2022), achieving query complexity on the order of $(O(k\log N)$.
 
 ## Experimental Details
 
