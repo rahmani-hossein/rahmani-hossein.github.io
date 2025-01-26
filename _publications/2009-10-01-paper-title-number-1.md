@@ -1,12 +1,20 @@
 ---
 title: "Identifying Drift, Diffusion, and Causal Structure from Temporal Snapshots"
 collection: publications
-permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
+permalink: /publication/2024-10-30-paper-title-number-1
+excerpt: 'About SDE parameter Estimation in setting in which we don't have trajectories.'
+date: 2024-10-30
+venue: 'Preprint'
+paperurl: '[https://academicpages.github.io](https://rahmani-hossein.github.io/files/Appex.pdf)'
+citation: '@misc{guan2024identifyingdriftdiffusioncausal,
+      title={Identifying Drift, Diffusion, and Causal Structure from Temporal Snapshots}, 
+      author={Vincent Guan and Joseph Janssen and Hossein Rahmani and Andrew Warren and Stephen Zhang and Elina Robeva and Geoffrey Schiebinger},
+      year={2024},
+      eprint={2410.22729},
+      archivePrefix={arXiv},
+      primaryClass={stat.ML},
+      url={https://arxiv.org/abs/2410.22729}, 
+}'
 ---
 
 The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
