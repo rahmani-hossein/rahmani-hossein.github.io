@@ -10,8 +10,7 @@ redirect_from:
 
 ## About Me
 
-Hello! I'm Hossein Rahmani, a passionate and driven Master's student in Mathematics at the University of British Columbia. With a strong background in Computer Science, Statistics, and Optimization, I'm excited to leverage my skills in causal inference, machine learning, and data science to tackle complex problems and drive meaningful impact.
-
+Hi! I am a Master's student in Applied Mathematics at the University of British Columbia, with a focus on Causal Machine Learning. My research interests include Large Language Models, Causal Inference, Natural Language Processing, and broadly ML.
 
 ## Education
 
