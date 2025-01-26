@@ -1,7 +1,7 @@
 ---
 title: "Identifying Drift, Diffusion, and Causal Structure from Temporal Snapshots"
 collection: publications
-permalink: /publication/2024-10-30-paper-title-number-1
+permalink: /publication/2024-10-30-Appex
 excerpt: 'About SDE parameter Estimation in setting in which we don't have trajectories.'
 date: 2024-10-30
 venue: 'Preprint'
