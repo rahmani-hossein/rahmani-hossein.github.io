@@ -52,7 +52,7 @@ After collecting $M$ sampled prompts and their corresponding utility values, we 
 
 ### Headline Classification Example with Token-Level Attribution
 
-In this example, the LLM output is a single word, and we aim to find the attribution of the context in headline classification. We used the **Uncompleted-Prompt Design** with \(M=200\) samples for estimating AME.
+In this example, the LLM output is a single word, and we aim to find the attribution of the context in headline classification. We used the **Uncompleted-Prompt Design** with $M=200$ samples for estimating AME.
 
 #### Context
 
