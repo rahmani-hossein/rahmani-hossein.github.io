@@ -20,13 +20,13 @@ repository               : "rahmani-hossein/rahmani-hossein.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  # Biographic information
-  avatar           : "hossein-profile.jpg"
+  # Biographic information. hossein-profile.jpg
+  avatar           : "automn-profile.jpg"
   name             : "Hossein Rahmani"
   pronouns         : # example: "he/him"  
-  bio              : "MSc of Applied Mathematics at UBC (Causality Sep 2023- present) Ex Cs bachelor at Sharif Univesity of Techenology"
-  location         : "Vancouver"
-  employer         : "University of British Columbia"
+  bio              : "Applied ML Scientist at TD | M.Sc. Applied Math (Causal Inference), UBC | CS, Sharif University of Technology"
+  location         : "Toronto"
+  employer         : "TD Bank"
   uri              : # URL
   email            : "hrahmani@math.ubc.ca" 
 
@@ -56,7 +56,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # "https://www.linkedin.com/in/hossein-rahmani-7a5373197/"
+  linkedin         : "hossein-rahmani-7a5373197"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
