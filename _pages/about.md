@@ -23,7 +23,13 @@ Foundation in algorithms, probability, statistical learning, and software engine
 ## Research & Industry Experience
 
 **Applied ML Scientist 1** at TD Bank (Nov 2025 - Present)
-Developing machine learning solutions for personal banking applications, focusing on causal inference and generative AI for financial services.
+◦ Built the end-to-end causal ML pricing pipeline for mortgage renewals, from CATE model development and customer segmentation to rate optimization, delivering $28M in incremental value vs. baseline with a 6-person team
+
+◦ Worked closely with business stakeholders to translate model outputs into real pricing rates, aligning on requirements and pushing toward production
+
+◦ Led knowledge transfer on project completion, documenting the full pipeline and onboarding the team before transitioning to a new mandate
+
+◦ Currently contributing to foundational causal inference research with Layer 6, building a proof-of-concept model that approaches baseline performance on AUC for GIC pricing task.
 
 **Research on LLM Attribution** with [Prof. Mathias Lecuyer](https://mathias.lecuyer.me), UBC (Sep 2024 - Present)
 Designed a randomized experiment framework to measure the causal attribution of prompt words on Large Language Model outputs, estimating Average Marginal Effects (AME) of individual tokens.
