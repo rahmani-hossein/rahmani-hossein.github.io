@@ -23,6 +23,7 @@ Foundation in algorithms, probability, statistical learning, and software engine
 ## Research & Industry Experience
 
 **Applied ML Scientist 1** at TD Bank (Nov 2025 - Present)
+
 ◦ Built the end-to-end causal ML pricing pipeline for mortgage renewals, from CATE model development and customer segmentation to rate optimization, delivering $28M in incremental value vs. baseline with a 6-person team
 
 ◦ Worked closely with business stakeholders to translate model outputs into real pricing rates, aligning on requirements and pushing toward production
@@ -32,15 +33,19 @@ Foundation in algorithms, probability, statistical learning, and software engine
 ◦ Currently contributing to foundational causal inference research with Layer 6, building a proof-of-concept model that approaches baseline performance on AUC for GIC pricing task.
 
 **Research on LLM Attribution** with [Prof. Mathias Lecuyer](https://mathias.lecuyer.me), UBC (Sep 2024 - Present)
+
 Designed a randomized experiment framework to measure the causal attribution of prompt words on Large Language Model outputs, estimating Average Marginal Effects (AME) of individual tokens.
 
 **Master's Research** with [Prof. Elina Robeva](https://personal.math.ubc.ca/~erobeva/index.html), UBC (Sep 2023 - Present)
+
 Developed APPEX, an iterative algorithm using Optimal Transport to jointly estimate drift, diffusion, and causal graphs from temporal snapshots of Stochastic Differential Equations. [Preprint on arXiv](/publication/2024-10-30-appex), submitted to JMLR.
 
 **Data Scientist** at [Shomara](https://www.linkedin.com/company/shomara/about/) (Dec 2021 - Oct 2022)
+
 Applied causal inference in fintech: Estimated Conditional Average Treatment Effects using GRF with novel experimental designs and CUPED variance reduction. Improved default prediction models using XGBoost, achieving 5% relative AUC increase.
 
 **Data Science Intern** at [Snapp Market](https://www.linkedin.com/company/snappmarket/) (Sep 2021 - Dec 2021)
+
 Developed computer vision algorithm improving staff location tracking by 20% using YOLO and OpenCV. Built SQL-based marketing dashboards for business intelligence.
 
 
