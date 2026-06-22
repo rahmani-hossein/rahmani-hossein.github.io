@@ -6,10 +6,23 @@ redirect_from:
   - /about/
   - /about.html
 ---
+Most ML systems tell you what happened. Very few tell you why, and even fewer change what you actually do about it.
 
-I am joining TD Bank as an Applied ML Scientist 1 on the Personal Banking team. My research interests lie at the intersection of **Causal Machine Learning** and **Generative AI**, focusing on building interpretable AI systems that understand cause-and-effect relationships rather than mere correlations.
+That gap between correlation and causation costs organizations millions in misallocated decisions every year, whether in financial institutions, marketing teams, or recommendation systems. I have spent the last 3 years focused on one question: how do you move from observational data to decisions you can actually trust?
+ 
 
-I recently completed my Master's in Applied Mathematics at UBC, specializing in Causal Inference and Optimal Transport methods.
+At TD Bank's Layer 6 AI, I was part of a 6-person team that built the end-to-end causal ML pipeline for mortgage renewal pricing, from CATE model development and customer segmentation through to LP optimization and production rate delivery, landing $28M in incremental value vs. baseline. 
+
+
+Before that, at Shomara, I used GRF-based CATE estimators and CUPED variance reduction to measure the causal effect of credit on purchase behavior, one of the earlier applications of heterogeneous treatment effects in fintech.
+
+
+Alongside the industry work, I completed a Master's in Applied Mathematics at UBC with a 4.0 GPA, designing an algorithm using Optimal Transport to jointly estimate drift, diffusion, and causal structure from temporal snapshots, submitted to JMLR and available on Arxiv. I also built a randomized experiment framework to measure how individual prompt words causally shift LLM outputs.
+
+ 
+My research interests lie at the intersection of **Causal Machine Learning** and **Generative AI**, focusing on building interpretable AI systems that understand cause-and-effect relationships rather than mere correlations.
+
+I like working at the edge where rigorous math meets real decisions. If you are working on hard causal problems in industry or research, I would love to connect.
 
 ## Education
 
